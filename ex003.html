@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(118, 118, 226);
+            font: normal 25pt Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt("Digite um número: "))   // String, convertendo para Number
+        var n2 = Number(window.prompt("Digite um outro número: "))// OU, String, convertendo para Number
+        var soma = n1 + n2
+
+        // para converter Number para String, usar String(n1) ou n1.n.toString()
+
+        window.alert("A soma dos valores é: " + soma );//Ou String(soma)// Concatenação de strings
+        // (number + number) para adição
+        // (string + string) para concatenação de strings
+    </script>
+</body>
+</html>
